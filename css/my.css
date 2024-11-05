@@ -1,0 +1,19 @@
+.container-skills {
+    min-height: 70px;
+    /* margin-top: -70px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between items */
+}
+.item-skills {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    flex: 0 1 auto; /* Grow and shrink as needed but don't stretch to fill the container */
+    max-width: 200px; /* Set a maximum width for items */
+    text-align: center;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+}
